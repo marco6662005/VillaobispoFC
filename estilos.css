@@ -18,7 +18,7 @@ a{
 }
 
 .header{
-    background: url(imagenes/bg-2.jpg);
+    background: url(imagenes/foto-desde-banquillos5.jpg);
     background-position: center;
     background-attachment: contain;
     background-size:cover;
@@ -68,7 +68,9 @@ a{
         /* background: #f07b3f; */
         height: 580px;
         display: flex;
-        align-items: center;
+        align-items: flex-start;
+        justify-content: center;
+        padding-top: 10px;
     }
         h1{
             font-family: "Lora", serif;

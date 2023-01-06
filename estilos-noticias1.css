@@ -18,7 +18,7 @@ a{
 }
 
 .header{
-    background: url(imagenes/bg-2.jpg);
+    background: url(imagenes/backgraund-noticias.jpg);
     background-position: center;
     background-attachment: contain;
     background-size:cover;
@@ -81,6 +81,7 @@ a{
 .section{
     background: #f7f7f7;
     display: flex;
+    min-height: calc(100vh - 100px - 19px);
 }
     .articulos{
         background: #f7f7f7;
@@ -90,7 +91,7 @@ a{
     }
         article{
             flex:1 1 40%;
-            color: #000;
+            color: rgb(0, 0, 0);
             font-size: 20px;
             letter-spacing: 1px;
             margin: 10px 10px 0 0px;
@@ -101,7 +102,7 @@ a{
             width: 100%;
         }
         .article a{
-            color: #fff;
+            color: rgb(0, 0, 0);
             font-size: 13px;
             padding: 10px;
             background: #000;
@@ -112,7 +113,7 @@ a{
             background: #546cc3;
         }
         h3{
-            color:#f000
+            color:#000;
             font-size: 13px;
             padding: 10px 0;
             margin-top: 0px;
@@ -127,6 +128,8 @@ a{
             background: #000;
             flex:1 1 100%;
             margin: 10px 10px 0 0px;
+            height: 20px;
+            align-self: flex-end;
         }
         .navegacion a{
             color: #fff;
@@ -150,9 +153,6 @@ a{
         padding: 10px;
         text-transform: uppercase;
     }
-    .publicidad{
-        /* background: #ffea85; */
-    }
 .footer{
     background: #000;
     display: flex;
@@ -170,6 +170,8 @@ a{
         padding: 0 10px;
         letter-spacing: 2px;
     }
+
+
 @media all and (max-width: 1120px){
     .section{
         flex-direction: column;
